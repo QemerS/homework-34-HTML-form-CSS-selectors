@@ -1,0 +1,14 @@
+body{
+    border: solid green;
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+}
+#iki{
+    padding: 10px;
+    background-color: rgb(152, 215, 252);
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: solid green;
+}
+#uch{
+    line-height: 25px;
+}
