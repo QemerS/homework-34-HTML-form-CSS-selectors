@@ -10,25 +10,38 @@
 </head>
 
 <body>
-    <div id="main">
-    <p>Register</p>
-        <p>Create your first account. It's free and only takes a minute.</p>
-        <form>
-            <div id="fullname">
-            <input type="text" placeholder="First Name" >
-            <input type="text" placeholder="Last Name" >
-            </div>
-            <br>
-            <input type="password" placeholder="Password">
-            <br>
-            <input type="password" placeholder="Confirm password">
-            <br>
-            <input type="checkbox"> <label>I accept the <a href="">Terms of Use</a> &<a href="">Privacy Policy.</a></label>
-            <br>
-            <button>Register Now</button>
-        </form>
-    </div>
-        <p>Alredy have an account? <a href="">Sign in</a></p>
+    <section class="register">
+        <div class="container">
+            <form action="" class=".gray-text">
+                <h1>Register</h1>
+                <p>Create your account. It's free amd only takes a minute</p>
+                <div class="inner-container">
+                    <div class="full-name">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                    <div>
+                        <span>
+                            <input type="checkbox">
+                            I accept the
+                            <a href="#" class="green-text">Terms of Use</a>
+                            &
+                            <a href="#" class="green-text">Privacy Policy</a>
+                            .
+                        </span>
+                    </div>
+                    <button class="white-text">Register Now</button>
+                </div>
+            </form>
+        </div>
+        <div class="white-text">
+            <span>Already have an acoount?</span>
+            <a href="#" class="white-text">Sign in</a>
+        </div>
+    </section>
 </body>
 
 </html>

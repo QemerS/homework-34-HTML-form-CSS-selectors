@@ -1,11 +1,57 @@
 body{
-    background-color: rgba(47, 132, 189, 0.5);
-}
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
 
-#main{
-    background-color: rgba(255, 255, 255, 0.781);
-    text-align: center;
 }
-#fullname{
-    text-align: center;
+*{
+    font-family: sans-serif;
+}
+.container{
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+.gray-text{
+    color: lightgray;
+}
+.green-text{
+    color: green;
+}
+.white-text{
+    color: white;
+}
+.register{
+    width:fit-content;
+    margin:1%;
+}
+form>*{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: green;
+    border: none;
+    padding: 3%;
+}
+button:hover{
+    background-color: lightgray;
+    color: green;
+    border: solid 1px;
+}
+form{
+    padding: 4%;
+}
+.inner-container>*,.full-name>*{
+    font-size: 2vw;
+}
+.full-name{
+    display: flex;
+}
+input{
+    padding: 2%;
+}
+.inner-container>*{
+    margin-bottom: 3%;
 }
