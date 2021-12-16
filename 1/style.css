@@ -1,20 +1,24 @@
 body{
-    background-color: lightsteelblue;
+    background-color: rgb(122, 146, 179);
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 2vw;
-
 }
 *{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    white-space: nowrap;
 }
-.container{
-    background-color: lightgray;
-    margin-bottom: 3%;
+/**/
+h1 {
+    color:black
 }
 .gray-text{
-    color: lightgray;
+    color: gray;
 }
 .green-text{
     color: green;
@@ -22,13 +26,42 @@ body{
 .white-text{
     color: white;
 }
+.no-dec>*{
+    text-decoration: none;
+}
+/**/
 .register{
-    width:fit-content;
     margin:1%;
+}
+.container{
+    background-color: whitesmoke;
+    margin-bottom: 3%;
+}
+form{
+    padding: 4%;
 }
 form>*{
     display: flex;
     flex-direction: column;
+    margin:2%;
+}
+.inner-container>*{
+    margin-bottom: 3%;
+}
+input{
+    padding: 1%;
+}
+.inner-container>*,.full-name>*{
+    font-size: 2vw;
+    overflow: hidden; /*hiding surname's overflow!!!*/
+}
+.full-name{
+    display: flex;
+}
+[type="checkbox"]{
+    height: 20px; /*checkbox-sizing!!!*/
+    width: 20px;
+    float: left;
 }
 button{
     background-color: green;
@@ -36,22 +69,10 @@ button{
     padding: 3%;
 }
 button:hover{
-    background-color: lightgray;
-    color: green;
-    border: solid 1px;
+    background-color: rgba(0, 128, 0, 0.671);
 }
-form{
-    padding: 4%;
-}
-.inner-container>*,.full-name>*{
-    font-size: 2vw;
-}
-.full-name{
-    display: flex;
-}
-input{
-    padding: 2%;
-}
-.inner-container>*{
-    margin-bottom: 3%;
-}
+
+
+
+
+
