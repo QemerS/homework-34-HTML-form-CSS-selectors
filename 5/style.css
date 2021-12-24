@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-weight: bold;
     margin:10px;
@@ -18,3 +19,25 @@ div{
     display: flex;
     justify-content: center;
 }
+=======
+*{
+    font-weight: bold;
+    margin:10px;
+    padding:10px;  
+}
+button{
+    background-color: rgb(70, 94, 230);
+    color:white;
+    border:none;
+    border-radius: 20px;
+}
+input{
+    display: block;
+    border: 2px solid black;
+}
+div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> fd35ef534a7e24bab0df8617aa55ee10eca0d0a5

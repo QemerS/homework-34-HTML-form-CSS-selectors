@@ -1,11 +1,102 @@
 body{
-    background-color: rgba(47, 132, 189, 0.5);
+    background-color: rgb(122, 146, 179);
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    white-space: nowrap;
+}
+/**/
+.inner-container>h1 {
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.inner-container>p {
+    margin-bottom: 30px;
+}
+.last-container>*{
+    padding: 10px;
+}
+.gray-text{
+    color: gray;
+}
+.green-text{
+    color: green;
+}
+.white-text{
+    color: white;
+}
+.text-ceter{
+    text-align: center;
+}
+.no-dec>*{
+    text-decoration: none;
+}
+/**/
+.register{
+    margin: 40px;
+}
+.container{
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    width: 449px;
+}
+form{
+    padding: 25px;
+}
+form>*{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.inner-container>*{
+    margin-bottom: 15px;
+}
+input{
+    border: gainsboro solid 0.5px;
+    padding: 10px;
+}
+.inner-container>*,.full-name>*{
+    font-size: 16px;
+    overflow: hidden; /*hiding surname's overflow!!!*/
+}
+.full-name{
+    display: flex;
+}
+[type="checkbox"]{
+    height: 20px; /*checkbox-sizing!!!*/
+    width: 20px;
+    float: left;
+}
+button{
+    background-color: green;
+    border: none;
+    padding: 15px;
+}
+button:hover{
+    background-color: rgba(0, 128, 0, 0.671);
 }
 
-#main{
-    background-color: rgba(255, 255, 255, 0.781);
-    text-align: center;
+.inner-container>h1::before, .inner-container>h1::after{
+    display: inline-block;
+    content: "";
+    border-top: 1px solid grey;
+    width: 34%;
+    transform: translateY(-8px);
 }
-#fullname{
-    text-align: center;
+.inner-container>h1::before{
+    margin-right: 10px;
 }
+.inner-container>h1::after{
+    margin-left: 10px;
+}
+
+
