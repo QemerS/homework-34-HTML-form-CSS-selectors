@@ -2,18 +2,19 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body {
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+body, section {
     width: 100%;
-    height: 1000px; /**/
+    height: 1000px;
 }
 section {
     background-color:rgba(245, 245, 220, 0.8);
-    width: 100%;
-    height: 1000px;
     display: flex;
     justify-content: center;
 }
@@ -27,7 +28,7 @@ form {
     padding: 40px;
     height: auto;
 }
-.container>*{
+.container>* {
     margin-bottom: 20px;
 }
 h1 {
@@ -36,13 +37,8 @@ h1 {
     font-variant-caps: all-petite-caps;
     text-align: center;
 }
-input,select {
+input, select {
     padding: 10px;
-}
-.pair {
-    width: 500px;
-    display: flex;
-    justify-content: space-between;
 }
 label {
     font-weight: bold;
@@ -56,4 +52,15 @@ button {
 button:hover {
     background-color: rgba(0, 0, 255, 0.8);
     color: white;
+}
+
+.single, .pair {
+    display: flex;
+    flex-wrap: wrap;
+}
+.single>input {
+    flex:100%;
+}
+.pair>input, select {
+    flex:50%;
 }
