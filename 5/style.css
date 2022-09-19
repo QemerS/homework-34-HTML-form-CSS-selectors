@@ -1,43 +1,32 @@
-<<<<<<< HEAD
 *{
     font-weight: bold;
-    margin:10px;
-    padding:10px;  
 }
 button{
     background-color: rgb(70, 94, 230);
     color:white;
     border:none;
     border-radius: 20px;
+    margin-top: 1rem;
 }
-input{
-    display: block;
-    border: 2px solid black;
-}
-div{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-=======
-*{
-    font-weight: bold;
-    margin:10px;
+.p-10 {
     padding:10px;  
 }
-button{
-    background-color: rgb(70, 94, 230);
-    color:white;
-    border:none;
-    border-radius: 20px;
+.px {
+    padding: 10px 20px;
 }
-input{
+label>* {
     display: block;
-    border: 2px solid black;
 }
-div{
+label span {
+    margin-top: 0.9rem;
+}
+div {
+    width: 15rem;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
 }
->>>>>>> fd35ef534a7e24bab0df8617aa55ee10eca0d0a5
+input {
+    border:solid 1px black;
+}
+h1 {
+    margin: 0;
+}
