@@ -5,8 +5,23 @@
     box-shadow: 5px 5px 10px grey;
 }
 .p-1 {
-    padding: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
 }
 .m-y {
     margin: 10px 0px;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 0px 0px;
+}
+legend {
+    color: blue;
+    font-weight: bold;
+}
+button {
+    padding: 0rem 2rem;
+}
+.count {
+    width: 30px;
 }

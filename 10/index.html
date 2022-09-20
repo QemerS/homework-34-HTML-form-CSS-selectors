@@ -11,7 +11,9 @@
 
 <body>
     <div class="container">
+        
         <form action="" class="p-1">
+            <h1>Reservation Request</h1>
             <fieldset class="m-y">
                 <legend>General Information</legend>
 
@@ -20,18 +22,18 @@
                     <input type="datetime-local" id="ar-date" name="arrival">
                 </label>
 
-                <br />
+
 
                 <label for="nights">
                     <span>Nights:</span>
                     <input type="number" id="nights" name="nigths">
                 </label>
 
-                <br />
 
-                <label for="adult-count">
+
+                <label for="adult">
                     <span>Adults:</span>
-                    <input list="adult-count" id="adult-count" name="adult-count" />
+                    <input list="adult-count" id="adult" name="adult" class="count" />
 
                     <datalist id="adult-count">
                         <option value="1">
@@ -39,11 +41,11 @@
                     </datalist>
                 </label>
 
-                <br />
 
-                <label for="child-count">
+
+                <label for="child">
                     <span>Children:</span>
-                    <input list="child-count" id="child-count" name="child-count" />
+                    <input list="child-count" id="child" name="child" class="count" />
 
                     <datalist id="child-count">
                         <option value="1">
@@ -59,20 +61,16 @@
 
                 <label for="room-type">
                     <span>Room Type:</span>
-                    <input id="room-type" type="radio" name="standard" id="standard">Standard
+                    <input id="room-type" type="radio" name="standard" id="standard" checked>Standard
                     <input type="radio" name="bussiness" id="bussiness">Bussiness
                     <input type="radio" name="suite" id="suite">Suite
                 </label>
 
-                <br>
-
                 <label for="bed-type">
                     <span>Bed Type:</span>
-                    <input id="bed-type" type="radio" name="king" id="king">King
+                    <input id="bed-type" type="radio" name="king" id="king" checked>King
                     <input type="radio" name="double" id="double">Double Double
                 </label>
-
-                <br>
 
                 <input type="checkbox" name="smoking" id="smoking">Smoking
             </fieldset>
@@ -85,18 +83,14 @@
                     <input type="text" name="f-name" id="f-name">
                 </label>
 
-                <br>
-
                 <label for="e-mail">
                     <span>Email:</span>
-                    <input type="email" name="e-maail" id="e-maail">
+                    <input type="email" name="e-maail" id="e-maail" value="grace@yahoo..com">
                 </label>
-
-                <br>
 
                 <label for="phone">
                     <span>Phone:</span>
-                    <input type="tel" name="phone" id="phone">
+                    <input type="tel" name="phone" id="phone" value="123-456-789">
                 </label>
 
             </fieldset>
