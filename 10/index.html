@@ -15,45 +15,63 @@
             <fieldset class="m-y">
                 <legend>General Information</legend>
 
-                <label for="ar-date">Arrival date:</label>
-                <input type="datetime-local" id="ar-date" name="arrival">
+                <label for="ar-date">
+                    <span>Arrival date:</span>
+                    <input type="datetime-local" id="ar-date" name="arrival">
+                </label>
+
                 <br />
 
-                <label for="nights">Nights:</label>
-                <input type="number" id="nights" name="nigths">
+                <label for="nights">
+                    <span>Nights:</span>
+                    <input type="number" id="nights" name="nigths">
+                </label>
+
                 <br />
 
-                <label for="adult-count">Adults:</label>
-                <input list="adult-count" id="adult-count" name="adult-count" />
+                <label for="adult-count">
+                    <span>Adults:</span>
+                    <input list="adult-count" id="adult-count" name="adult-count" />
 
-                <datalist id="adult-count">
-                    <option value="1">
-                    <option value="2">
-                </datalist>
+                    <datalist id="adult-count">
+                        <option value="1">
+                        <option value="2">
+                    </datalist>
+                </label>
+
                 <br />
 
-                <label for="child-count">Children:</label>
-                <input list="child-count" id="child-count" name="child-count" />
+                <label for="child-count">
+                    <span>Children:</span>
+                    <input list="child-count" id="child-count" name="child-count" />
 
-                <datalist id="child-count">
-                    <option value="1">
-                    <option value="2">
-                </datalist>
+                    <datalist id="child-count">
+                        <option value="1">
+                        <option value="2">
+                    </datalist>
+                </label>
+
 
             </fieldset>
 
             <fieldset class="m-y">
                 <legend>Preferences</legend>
 
-                <label for="room-type">Room Type:</label>
-                <input id="room-type" type="radio" name="standard" id="standard">Standard
-                <input type="radio" name="bussiness" id="bussiness">Bussiness
-                <input type="radio" name="suite" id="suite">Suite
+                <label for="room-type">
+                    <span>Room Type:</span>
+                    <input id="room-type" type="radio" name="standard" id="standard">Standard
+                    <input type="radio" name="bussiness" id="bussiness">Bussiness
+                    <input type="radio" name="suite" id="suite">Suite
+                </label>
+
                 <br>
 
-                <label for="bed-type">Bed Type:</label>
-                <input id="bed-type" type="radio" name="king" id="king">King
-                <input type="radio" name="double" id="double">Double Double
+                <label for="bed-type">
+                    <span>Bed Type:</span>
+                    <input id="bed-type" type="radio" name="king" id="king">King
+                    <input type="radio" name="double" id="double">Double Double
+                </label>
+
                 <br>
 
                 <input type="checkbox" name="smoking" id="smoking">Smoking
@@ -62,16 +80,25 @@
             <fieldset class="m-y">
                 <legend>Contact Information</legend>
 
-                <label for="f-name">Name:</label>
-                <input type="text" name="f-name" id="f-name">
+                <label for="f-name">
+                    <span>Name:</span>
+                    <input type="text" name="f-name" id="f-name">
+                </label>
+
                 <br>
 
-                <label for="e-mail">Email:</label>
-                <input type="email" name="e-maail" id="e-maail">
+                <label for="e-mail">
+                    <span>Email:</span>
+                    <input type="email" name="e-maail" id="e-maail">
+                </label>
+
                 <br>
 
-                <label for="phone">Phone:</label>
-                <input type="tel" name="phone" id="phone">
+                <label for="phone">
+                    <span>Phone:</span>
+                    <input type="tel" name="phone" id="phone">
+                </label>
+
             </fieldset>
 
             <button type="submit">Submit Reservation</button>
