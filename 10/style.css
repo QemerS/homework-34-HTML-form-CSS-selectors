@@ -1,0 +1,12 @@
+.container {
+    margin: 0 auto;
+    width: fit-content;
+    border: 5px solid blue;
+    box-shadow: 5px 5px 10px grey;
+}
+.p-1 {
+    padding: 1rem;
+}
+.m-y {
+    margin: 10px 0px;
+}
