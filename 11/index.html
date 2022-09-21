@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,55 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <form action="">
+            <h1 class="mb-0">Emergency Contact Form</h1>
+            <h5 class="mt-0">Please fill out the form correctly</h5>
+            <hr>
+
+            <label for="name">
+                <div class="title-text">
+                    <span>Name</span>
+                </div>
+                <div class="doule-input-wrapper">
+                    <div class="p-relative">
+                        <input type="text" name="name" id="name" autofocus size="10">
+                        <span class="des-text">First name</span>
+                    </div>
+                    <div class="p-relative">
+                        <input type="text" name="l-name" id="l-name">
+                        <span class="des-text">Last name</span>
+                    </div>
+                </div>
+            </label>
+
+            <label for="mail">
+                <div class="title-text">
+                    <span>E-mail</span>
+                </div>
+                <input type="text" name="mail" id="mail" size="40" placeholder="ex: myname@example.com">
+            </label>
+
+            <label for="p-number">
+                <div class="title-text">
+                    <span>Phone Number</span>
+                </div>
+                <div class="doule-input-wrapper">
+                    <div class="p-relative">
+                        <input type="text" name="a-code" id="a-code" size="3">
+                        <span class="des-text">Area Code</span>
+                    </div>
+                    <span class="tire">-</span>
+                    <div class="p-relative">
+                        <input type="text" name="p-number" id="p-number" size="7">
+                        <span class="des-text">Phone Number</span>
+                    </div>
+                </div>
+            </label>
+        </form>
+    </div>
 </body>
+
 </html>
