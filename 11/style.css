@@ -30,14 +30,28 @@ label {
 }
 .title-text {
     width: 150px;
+    font-weight: bold;
 }
 .doule-input-wrapper {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .doule-input-wrapper .p-relative input {
     margin-right: 10px;
 }
 .tire {
     margin-right: 10px;
+}
+.multi-line-inputs > * {
+    margin-bottom: 25px;
+}
+select {
+    padding: 1px 70px 1px 1px;
+    background: linear-gradient(180deg, lightgray, transparent);
+}
+button {
+    padding: 5px 10px;
+}
+input {
+    font-size: 0.9rem;
 }

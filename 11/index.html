@@ -55,6 +55,74 @@
                     </div>
                 </div>
             </label>
+
+            <label for="address">
+                <div class="title-text">
+                    <span>Address</span>
+                </div>
+                <div class="multi-line-inputs">
+                    <div class="p-relative">
+                        <input type="text" name="address" id="address" size="50">
+                        <span class="des-text">Street Address</span>
+                    </div>
+                    <div class="p-relative">
+                        <input type="text" name="address-2" id="address-2" size="50">
+                        <span class="des-text">Street Address Line 2</span>
+                    </div>
+
+                    <div class="doule-input-wrapper">
+                        <div class="p-relative">
+                            <input type="text" name="city" id="city">
+                            <span class="des-text">City</span>
+                        </div>
+                        <div class="p-relative">
+                            <input type="text" name="state" id="state">
+                            <span class="des-text">State / Province</span>
+                        </div>
+                    </div>
+
+                    <div class="doule-input-wrapper">
+                        <div class="p-relative">
+                            <input type="text" name="p-code" id="p-code">
+                            <span class="des-text">Postal / Zip Code</span>
+                        </div>
+                        <div class="p-relative">
+                            <select name="country" id="country">
+                                <option value="" disabled selected>Please Select</option>
+                                <option value="Farnce">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Sweden">Sweden</option>
+                            </select>
+                            <span class="des-text">Country</span>
+                        </div>
+                    </div>
+                </div>
+            </label>
+
+            <label for="relation">
+                <div class="title-text">
+                    <span>Relationship with Patient</span>
+                </div>
+                <div>
+                    <input type="radio" name="parent" id="parent"> Parent
+                    <br>
+                    <input type="radio" name="child" id="child"> Child
+                    <br>
+                    <input type="radio" name="sibling" id="sibling"> Sibling
+                    <br>
+                    <input type="radio" name="friend" id="friend"> Friend
+                    <br>
+                    <input type="radio" name="other" id="other">
+                    <input type="text" name="other" id="other" placeholder="other">
+                </div>
+            </label>
+
+            <label>
+                <div class="title-text"></div>
+                <button type="submit">Submit Form</button>
+            </label>
         </form>
     </div>
 </body>
