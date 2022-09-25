@@ -20,3 +20,17 @@ input {
 .mr-1 {
     margin-right: 1rem;
 }
+textarea {
+    resize: none;
+}
+button {
+    background-color: #71c0d5;
+    border: none;
+    padding: 0.6rem 1rem 0.6rem 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.px-1 {
+    padding: 0 1rem;
+}
